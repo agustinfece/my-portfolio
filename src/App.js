@@ -1,12 +1,18 @@
-import React from 'react'
-import './App.css';
-import Header from './components/header'
-import Home from './components/home'
+import React from "react";
+import "./App.css";
+import Header from "./components/header";
+import Home from "./components/home";
+import About from "./components/about";
 
 function App() {
   return (
-    <><Header />
-    <main><Home /></main></>
+    <>
+      <Header />
+      <main>
+        <Home />
+        <About />
+      </main>
+    </>
   );
 }
 
